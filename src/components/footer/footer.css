@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap");
+.footer-section {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  background-color: #dddddd;
+  font-family: "Public Sans", sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 20px;
+  gap: 2rem;
+}
+
+.footer-left {
+  flex: 3;
+}
+
+.footer-left span {
+  display: block;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.footer-left span:nth-child(2n) {
+  margin-top: 2.5rem;
+}
+
+.footer-right {
+  flex: 1;
+}
+
+.footer-right .footer-info {
+  margin-bottom: 1rem;
+}
+
+.footer-right .footer-info .right-text {
+  line-height: 30px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.footer-right .info span {
+  display: block;
+}
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: rgb(74, 71, 71);
+}
+
+@media screen and (max-width: 480px) {
+  .footer-section {
+    padding: 1rem 1rem;
+    height: 80vh;
+  }
+  .footer-menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .footer-left span {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 500;
+  }
+
+  .footer-left span:nth-child(2n) {
+    margin-top: 1.5rem;
+  }
+}

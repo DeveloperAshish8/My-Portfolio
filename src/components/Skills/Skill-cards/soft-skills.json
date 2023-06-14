@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Team Work",
+    "icon": "https://img.icons8.com/color/48/000000/teamwork.png"
+  },
+  {
+    "name": "JSON",
+    "icon": "https://img.icons8.com/color/json.png"
+  },
+  {
+    "name": "Communication ",
+    "icon": "https://img.icons8.com/color/communication.png"
+  },
+  {
+    "name": "OOPs",
+    "icon": "https://img.icons8.com/color/programming.png"
+  },
+  {
+    "name": "DSA",
+    "icon": "https://img.icons8.com/color/database.png"
+  }
+]

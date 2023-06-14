@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.projects-grid {
+  padding: 20px;
+}
+
+.projects {
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 0 4rem;
+}
+.heading-about {
+  font-size: 2.5rem;
+  color: rgb(32, 32, 32);
+  font-weight: 800;
+  text-align: center;
+  margin: 20px auto;
+}
+.heading-about span {
+  color: #496eff;
+}
+
+.project-grid {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .projects {
+    padding: 0 1rem;
+  }
+}

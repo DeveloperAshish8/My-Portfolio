@@ -1,0 +1,36 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: 15px 15px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: black;
+  transition: 0.2s;
+}
+.card:hover {
+  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  transition: all 0.3s linear;
+  transform: scale(1.05);
+}
+.card .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.card .info i {
+  font-size: 3rem;
+}
+.info span {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-left: 0.5rem;
+}

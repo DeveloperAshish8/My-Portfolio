@@ -1,0 +1,201 @@
+.main {
+  display: flex;
+  height: 100vh;
+  padding: 0 5rem;
+}
+.main-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Name-box {
+  padding: 2rem;
+  display: flex;
+  line-height: 1.5rem;
+  flex-direction: column;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.Name-box span {
+  display: none;
+}
+
+.name {
+  font-size: 60px;
+  margin: 0px;
+}
+
+.name-hello {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.title-wrapper {
+  height: 100%;
+  animation: slide 10s ease-in-out infinite alternate;
+}
+
+@keyframes slide {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #496eff;
+  display: flex;
+  align-items: center;
+}
+
+.right-image {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  display: block;
+  z-index: 1;
+}
+
+.wrapper {
+  transform: translate(-50%, -50%);
+  margin-top: 1.5rem;
+}
+
+.link_wrapper a {
+  display: block;
+  width: 15rem;
+  height: 2.5rem;
+  line-height: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all 0.35s;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 0.35s;
+}
+
+.icon svg {
+  width: 2rem;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #496eff;
+  transition: all 0.35s;
+}
+
+.link_wrapper a:hover {
+  width: 200px;
+  border: 3px solid #496eff;
+  background: transparent;
+  color: #496eff;
+}
+
+.link_wrapper a:hover + .icon {
+  border: 3px solid #496eff;
+  right: -25%;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    flex-direction: column;
+    height: 90vh;
+    padding: 0;
+  }
+
+  .main-left {
+    width: 100%;
+  }
+
+  .wrapper {
+    display: none;
+  }
+
+  .Name-box {
+    padding: 1px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    line-height: 3rem;
+  }
+
+  .Name-box span {
+    display: block;
+    gap: 1rem;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: flex;
+  }
+
+  .Name-box span a {
+    color: #496eff;
+    font-size: 2rem;
+  }
+
+  .Name-box span i {
+    transition: all 0.2s;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .title-item {
+    font-size: 20px;
+    justify-content: center;
+  }
+  .main-description {
+    display: none;
+  }
+
+  .right-image {
+    width: 20rem;
+    height: 20rem;
+  }
+}

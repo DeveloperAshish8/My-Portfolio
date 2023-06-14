@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "CodeChamp Website",
+    "link": "https://codechamp.tech",
+    "image": "ProjectImages/CodeChampImage.png",
+    "text": "CodeChamps Community Website is the portfolio of Community of developers which allows users to watch past sessions, Apply for interships and many more",
+    "skills1": "HTML",
+    "skills2": "CSS",
+    "skills3": "JavaScript"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio",
+    "link": "https://codechamp.tech",
+    "image": "ProjectImages/CodeChampImage.png",
+    "text": "CodeChamps Community Website is the portfolio of Community of developers which allows users to watch past sessions, Apply for interships and many more",
+    "skills1": "React",
+    "skills2": "Vanila CSS",
+    "skills3": ""
+  },
+  {
+    "id": 3,
+    "name": "Something other",
+    "link": "https://codechamp.tech",
+    "image": "ProjectImages/CodeChampImage.png",
+    "text": "CodeChamps Community Website is the portfolio of Community of developers which allows users to watch past sessions, Apply for interships and many more",
+    "skills1": "HTML",
+    "skills2": "CSS",
+    "skills3": "JavaScript"
+  }
+]

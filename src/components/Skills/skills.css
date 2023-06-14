@@ -1,0 +1,42 @@
+.skills {
+  height: 100vh;
+  background-color: #496eff;
+}
+
+.heading {
+  font-size: 2rem;
+  padding-top: 30px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+.heading span {
+  color: yellow;
+}
+
+.container {
+  background: rgba(0, 0, 22, 0.4);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.container .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    height: 90vh;
+  }
+
+  .container {
+    width: 80vw;
+    padding: 1rem;
+  }
+}

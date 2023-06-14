@@ -1,0 +1,81 @@
+.experiences {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 1.4rem;
+  position: relative;
+  color: #444444;
+}
+
+.exp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+  align-items: flex-start;
+  opacity: 1;
+  transform: none;
+}
+
+.post {
+  flex: 1;
+}
+
+.role {
+  margin-left: 2rem;
+  flex: 1;
+}
+
+.progressbar {
+  position: absolute;
+  gap: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 45%;
+  margin-top: 1rem;
+}
+
+.progressbar .line {
+  position: absolute;
+  height: 95%;
+  width: 2px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
+  background-position: right;
+  background-size: 2px 30px;
+  background-repeat: repeat-y;
+  left: 48%;
+  z-index: 1;
+}
+
+.progressbar div {
+  flex: 1;
+  padding-top: 0.5rem;
+  z-index: 2;
+}
+
+.exp .role p {
+  color: #696969;
+}
+
+.progressbar div .circle {
+  border-radius: 50%;
+  background: black;
+  width: 1.2rem;
+  height: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .experiences {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .exp .role p {
+    line-height: 25px;
+  }
+}

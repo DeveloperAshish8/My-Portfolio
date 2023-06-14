@@ -1,0 +1,25 @@
+.work-wrapper {
+  padding: 2rem;
+}
+
+.work-container {
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: auto;
+  font-family: "Public Sans", sans-serif;
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 1rem;
+  }
+
+  .heading-about {
+    font-size: 2rem;
+  }
+}

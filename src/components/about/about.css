@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  background: rgb(255, 255, 255);
+}
+.heading-about {
+  font-size: 2.5rem;
+  color: rgb(32, 32, 32);
+  font-weight: 800;
+  text-align: center;
+}
+.heading-about span {
+  color: #496eff;
+}
+.about .row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.about .row .image {
+  flex: 1 1 30rem;
+}
+.about .row .image img {
+  margin: 7rem;
+  width: 50%;
+  border-radius: 5%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.about .row .content {
+  flex: 1 1 45rem;
+  padding: 3rem;
+}
+.about .row .content .MyName {
+  color: rgb(27, 27, 27);
+  font-size: 2rem;
+}
+.about .row .content .tag {
+  font-size: 1rem;
+  color: #496eff;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.about-container {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.detail-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.about-container .detail-container img {
+  height: 2rem;
+  cursor: pointer;
+}
+
+.about .row .content p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  .about .row .image img {
+    margin: 1rem 7rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+}

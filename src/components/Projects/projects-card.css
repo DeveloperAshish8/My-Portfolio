@@ -1,0 +1,116 @@
+.project-card {
+  width: 70%;
+  margin: auto;
+}
+
+.pro {
+  background-color: #fff;
+  border-radius: 1.3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  height: 20rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.pro:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.image-card {
+  background-color: hsla(0, 0%, 46%, 0.2);
+  border-radius: 1.3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  overflow: hidden;
+  width: 45rem;
+}
+
+.project-card .image-card img {
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s;
+  height: auto;
+  width: 100%;
+}
+
+.project-card h3 {
+  color: #2d2e32;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.project-card .image-card img:hover {
+  transform: translateY(-83%);
+  transition: transform 10s ease-in-out 0s;
+  height: auto;
+  width: 100%;
+}
+
+.pro-text {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  width: 25rem;
+}
+
+.tech-stacks {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.tech-stacks p {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #000 !important;
+  font-family: Mulish, sans-serif !important;
+  font-weight: 600 !important;
+  padding: 1rem 1.3rem;
+}
+
+.links {
+  gap: 1rem;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.links a {
+  color: #2d2e32;
+  font-size: 1rem;
+  font-weight: 500;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.links,
+.links a {
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .project-card {
+    width: 100%;
+  }
+
+  .pro {
+    flex-direction: column !important;
+    gap: 1rem;
+    height: 40rem;
+    padding: 0.8rem;
+  }
+
+  .image-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .pro-text {
+    width: 100%;
+  }
+}
