@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap");
 .footer-section {
-  margin-top: 2rem;
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
+  color: #0d2f3f;
   background-color: #dddddd;
   font-family: "Public Sans", sans-serif;
 }
@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 20px;
+  padding: 2rem 0;
   gap: 2rem;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .footer-right .footer-info .right-text {
-  line-height: 30px;
+  line-height: 50px;
   font-size: 1.3rem;
   font-weight: 500;
 }
@@ -75,7 +75,7 @@
   }
 
   .footer-left span {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     line-height: 3.5rem;
     font-weight: 520;
   }

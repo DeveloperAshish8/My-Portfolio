@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-left">
           <span className="quote-text">
-            Let's build something <br /> Great together.
+            Let's build something <br /> amazing together.
           </span>
 
           <span className="quote-text">

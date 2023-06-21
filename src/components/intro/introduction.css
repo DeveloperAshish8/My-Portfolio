@@ -143,6 +143,7 @@
   .main {
     flex-direction: column;
     height: 90vh;
+
     padding: 0;
   }
 

@@ -32,11 +32,12 @@
 
 @media screen and (max-width: 480px) {
   .skills {
-    height: 80vh;
+    min-height: 80vh;
   }
 
   .container {
     width: 80vw;
+    height: auto;
     padding: 1rem;
   }
 }
