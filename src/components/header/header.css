@@ -1,5 +1,4 @@
 .heading-wrapper {
-  position: relative;
   top: 0;
   z-index: 99;
   position: sticky;
@@ -53,9 +52,9 @@
   display: none;
 }
 
-@media (max-width: 468px) {
+@media (max-width: 480px) {
   .mobile-menu-link {
-    position: absolute;
+    position: fixed;
     list-style: none;
     gap: 2rem;
     font-weight: 500;

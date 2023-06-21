@@ -11,22 +11,12 @@
   },
   {
     "id": 2,
-    "name": "Portfolio",
-    "link": "https://codechamp.tech",
-    "image": "ProjectImages/CodeChampImage.png",
-    "text": "CodeChamps Community Website is the portfolio of Community of developers which allows users to watch past sessions, Apply for interships and many more",
+    "name": "My Portfolio",
+    "link": "https://ashish4.vercel.app",
+    "image": "ProjectImages/PortfolioScreenShot.png",
+    "text": "A portfolio containing basic information about me, including skills, projects and many more. Build on React and hosted on vercel.",
     "skills1": "React",
     "skills2": "Vanila CSS",
     "skills3": ""
-  },
-  {
-    "id": 3,
-    "name": "Something other",
-    "link": "https://codechamp.tech",
-    "image": "ProjectImages/CodeChampImage.png",
-    "text": "CodeChamps Community Website is the portfolio of Community of developers which allows users to watch past sessions, Apply for interships and many more",
-    "skills1": "HTML",
-    "skills2": "CSS",
-    "skills3": "JavaScript"
   }
 ]

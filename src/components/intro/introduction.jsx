@@ -1,7 +1,5 @@
 import "./introduction.css";
 import MyImage from "../../Image/MyImage.png";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 
 const Intro = () => {
@@ -22,10 +20,10 @@ const Intro = () => {
               </div>
             </div>
             <span>
-              <a href="">
+              <a href="" >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="">
+              <a href="" style={{color:'#000000'}}>
                 <i className="fa-brands fa-github"></i>
               </a>
             </span>
