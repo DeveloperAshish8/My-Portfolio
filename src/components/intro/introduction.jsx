@@ -20,22 +20,20 @@ const Intro = () => {
               </div>
             </div>
             <span>
-              <a href="" >
+              <a href="">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="" style={{color:'#000000'}}>
+              <a href="" style={{ color: "#000000" }}>
                 <i className="fa-brands fa-github"></i>
               </a>
             </span>
             <p className="main-description">
-              Second-year CSE Undergraduate Student at Bakhtiyarpur College of
-              Engineering . Leading CodeChamp (A community of Coding Enthusiast)
-              with 2500+ hustlers across all platforms.
+              I design and code beautified simple things and love what I do.
             </p>
           </div>
           <div className="wrapper">
             <div className="link_wrapper">
-              <a href="#">
+              <a href="https://ashish4.bio.link" target="_blank">
                 Let's Connect <i className="fa-brands fa-linkedin"></i>
               </a>
               <div className="icon">

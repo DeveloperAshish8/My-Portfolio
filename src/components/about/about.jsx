@@ -33,16 +33,16 @@ const About = () => {
             </div>
           </div>
           <p>
-            Second-year CSE Undergraduate Student at Bakhtiyarpur College of
-            Engineering
+            A computer science student who embodies the spirit of exploration,
+            the hunger for knowledge, and the unwavering passion for the
+            limitless possibilities of the digital frontier.
             <br />
             Leading Bihar's top growing technical community of 2,500+ developers
             named <a href="https://codechamp.tech/">CodeChamp</a>.<br />
             <br />
-            I excel in designing and maintaining responsive websites that offer
-            a smooth user experience. I am also a team player who thrives in
-            collaborating with cross-functional teams to produce outstanding web
-            applications.
+            With an innate passion for both design and code, I transform
+            imagination into captivating reality, forging seamless user
+            interfaces and immersive experiences that leave visitors spellbound
             <br />
             <br />
           </p>

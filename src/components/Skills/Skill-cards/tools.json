@@ -12,16 +12,16 @@
     "icon": "https://img.icons8.com/color/48/000000/google-cloud-platform.png"
   },
   {
-    "name": "Netlify",
-    "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-  },
-  {
     "name": "VS Code",
     "icon": "https://img.icons8.com/48/2c45ff/visual-studio.png"
   },
   {
     "name": "Canva",
     "icon": "https://img.icons8.com/color/48/000000/canva.png"
+  },
+  {
+    "name": "Scss",
+    "icon": "https://img.icons8.com/color/48/000000/sass.png "
   },
   {
     "name": "Python",
