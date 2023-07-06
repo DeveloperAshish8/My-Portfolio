@@ -1,1 +1,8 @@
-
+.preloader {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+}
