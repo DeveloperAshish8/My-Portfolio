@@ -143,7 +143,6 @@
   .main {
     flex-direction: column;
     height: 90vh;
-
     padding: 0;
   }
 
@@ -198,5 +197,26 @@
   .right-image {
     width: 20rem;
     height: 20rem;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+  .main {
+    height: 70vh;
+    padding: 0;
+  }
+
+  .Name-box {
+    line-height: 1rem;
+  }
+  .name {
+    font-size: 30px;
+  }
+
+  .title-item {
+    font-size: 15px;
+  }
+
+  .wrapper .link_wrapper {
+    margin-left: 25%;
   }
 }

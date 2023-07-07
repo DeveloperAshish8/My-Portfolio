@@ -21,6 +21,7 @@ function App() {
     <div className="app">
       {loading ? (
         <div className="preloader">
+        {/*Preloader */}
         <ClimbingBoxLoader
           color={"#496eff"}
           loading={loading}
@@ -31,6 +32,7 @@ function App() {
         </div>
       ) : (
         <>
+        {/* Components */}
           <Header />
           <Intro />
           <About />
