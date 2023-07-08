@@ -1,6 +1,5 @@
 import "./introduction.css";
 import MyImage from "../../Image/MyImage.png";
-import { useCallback } from "react";
 
 const Intro = () => {
   return (
@@ -20,10 +19,17 @@ const Intro = () => {
               </div>
             </div>
             <span>
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/ashish-kumar-4566211a3"
+                target="_blank"
+              >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="" style={{ color: "#000000" }}>
+              <a
+                href="https://github.com/DeveloperAshish8"
+                target="_blank"
+                style={{ color: "#000000" }}
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
             </span>
