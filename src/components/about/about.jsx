@@ -51,6 +51,8 @@ const About = () => {
             imagination into captivating reality, forging seamless user
             interfaces and immersive experiences that leave visitors spellbound
             <br />
+            I am a self-taught developer with a passion for web development, problem solving and have solved <b>250+</b> problems (LeetCode). 
+            <br/>
             <b>Get my <a href="Ashish_Resume.pdf" target="_blank" download>Resume</a> here.</b>
             <br />
           </p>
