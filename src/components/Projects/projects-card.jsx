@@ -2,6 +2,8 @@ import "./projects-card.css";
 import ProjectList from "./Projects-data.json";
 import { useEffect } from "react";
 import Aos from "aos";
+import { FaGithub } from "react-icons/fa";
+import { RiShareBoxFill } from "react-icons/ri";
 import "aos/dist/aos.css";
 
 const ProjectCard = () => {
@@ -32,12 +34,12 @@ const ProjectCard = () => {
               </div>
               <div className="links">
                 <a target="_blank" href={project.source}>
-                  <i class="fa-brands fa-github"></i>
+                <FaGithub />
                   Code
                 </a>
                 <a target="_blank" href={project.link}>
                   Live Demo
-                  <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i>
+                  <RiShareBoxFill />
                 </a>
               </div>
             </div>

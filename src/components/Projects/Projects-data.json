@@ -20,5 +20,16 @@
     "skills1": "React",
     "skills2": "Vanila CSS",
     "skills3": ""
+  },
+  {
+    "id": 3,
+    "name": "Coinix",
+    "link": "https://coinix.vercel.app",
+    "source": "https://github.com/DeveloperAshish8/Coinix",
+    "image": "ProjectImages/Coinix.png",
+    "text": "Coinix empowers users to stay informed and make strategic decisions in the dynamic crypto market.  Build on React and hosted on vercel.",
+    "skills1": "React JS",
+    "skills2": "ThreeJS",
+    "skills3": ""
   }
 ]
