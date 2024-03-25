@@ -44,16 +44,23 @@ const About = () => {
             the hunger for knowledge, and the unwavering passion for the
             limitless possibilities of the digital frontier.
             <br />
-            Leading a technical community of 2,500+ developers
-            named <a href="https://codechamp.tech/">CodeChamp</a>.<br />
+            Leading a technical community of 2,500+ developers named{" "}
+            <a href="https://codechamp.tech/">CodeChamp</a>.<br />
             <br />
             With an innate passion for both design and code, I transform
             imagination into captivating reality, forging seamless user
             interfaces and immersive experiences that leave visitors spellbound
+            <br />I am a self-taught developer with a passion for web
+            development, problem solving and have solved <b>400+</b> problems
+            (LeetCode).
             <br />
-            I am a self-taught developer with a passion for web development, problem solving and have solved <b>300+</b> problems (LeetCode). 
-            <br/>
-            <b>Get my <a href="Ashish_Resume.pdf" target="_blank" download>Resume</a> here.</b>
+            <b>
+              Get my{" "}
+              <a href="Ashish_Resume.pdf" target="_blank" download>
+                Resume
+              </a>{" "}
+              here.
+            </b>
             <br />
           </p>
         </div>

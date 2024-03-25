@@ -14,11 +14,7 @@ const ProjectCard = () => {
     <div className="project-card">
       {ProjectList.map((project) => {
         return (
-          <div
-            className="pro"
-            data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom"
-          >
+          <div className="pro" data-aos="fade-zoom-out">
             <div className="image-card">
               <a target="_blank" href={project.link} rel="noreferer">
                 <img src={project.image} alt="Project Image" />
@@ -34,7 +30,7 @@ const ProjectCard = () => {
               </div>
               <div className="links">
                 <a target="_blank" href={project.source}>
-                <FaGithub />
+                  <FaGithub />
                   Code
                 </a>
                 <a target="_blank" href={project.link}>

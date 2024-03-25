@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "name": "ShareFlow",
+    "link": "https://shareflow.vercel.app",
+    "source": "https://github.com/DeveloperAshish8/ShareFlow",
+    "image": "ProjectImages/ShareFlow.png",
+    "text": "A platform where users can effortlessly share files online. ShareFlow offers a seamless experience for sharing documents, images, videos, and more.",
+    "skills1": "NextJS",
+    "skills2": "Tailwind",
+    "skills3": "Firebase"
+  },
+  {
+    "id": 2,
     "name": "Coinix",
     "link": "https://coinix.vercel.app",
     "source": "https://github.com/DeveloperAshish8/Coinix",
@@ -8,28 +19,17 @@
     "text": "Coinix empowers users to stay informed and make strategic decisions in the dynamic crypto market.  Build on React and hosted on vercel.",
     "skills1": "React JS",
     "skills2": "ChartJS",
-    "skills3": ""
+    "skills3": "CSS"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "CodeChamp Website",
-    "link": "https://github.com/DeveloperAshish8/CodeChamp-s-Website",
-    "source": "https://github.com/DeveloperAshish8/CodeChamp-s-Website",
+    "link": "https://codechampcommunity.vercel.app",
+    "source": "https://github.com/DeveloperAshish8/CodeChamp-s-Website ",
     "image": "ProjectImages/CodeChampImage.png",
     "text": "CodeChamps Community Website is the portfolio of Community of developers which allows users to watch past sessions, Apply for interships and many more",
     "skills1": "HTML",
     "skills2": "CSS",
     "skills3": "JavaScript"
-  },
-  {
-    "id": 2,
-    "name": "My Portfolio",
-    "link": "https://ashish4.vercel.app",
-    "source": "https://github.com/DeveloperAshish8/My-Portfolio",
-    "image": "ProjectImages/PortfolioScreenShot.png",
-    "text": "A portfolio containing basic information about me, including skills, projects and many more. Build on React and hosted on vercel.",
-    "skills1": "React",
-    "skills2": "Vanila CSS",
-    "skills3": ""
   }
 ]

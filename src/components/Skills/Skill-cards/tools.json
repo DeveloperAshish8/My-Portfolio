@@ -1,5 +1,13 @@
 [
   {
+    "name": "C Language",
+    "icon": "https://img.icons8.com/color/48/000000/c.png"
+  },
+  {
+    "name": "C++",
+    "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+  },
+  {
     "name": "Git VCS",
     "icon": "https://img.icons8.com/color/48/000000/git.png"
   },
@@ -15,14 +23,7 @@
     "name": "VS Code",
     "icon": "https://img.icons8.com/48/2c45ff/visual-studio.png"
   },
-  {
-    "name": "Canva",
-    "icon": "https://img.icons8.com/color/48/000000/canva.png"
-  },
-  {
-    "name": "Scss",
-    "icon": "https://img.icons8.com/color/48/000000/sass.png "
-  },
+
   {
     "name": "Python",
     "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
