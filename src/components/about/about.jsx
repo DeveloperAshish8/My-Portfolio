@@ -45,7 +45,8 @@ const About = () => {
             limitless possibilities of the digital frontier.
             <br />
             Leading a technical community of 2,500+ developers named{" "}
-            <a href="https://codechamp.tech/">CodeChamp</a>.<br />
+            <a href="https://codechampcommunity.vercel.app/">CodeChamp</a>.
+            <br />
             <br />
             With an innate passion for both design and code, I transform
             imagination into captivating reality, forging seamless user
