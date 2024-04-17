@@ -44,7 +44,7 @@ const About = () => {
             the hunger for knowledge, and the unwavering passion for the
             limitless possibilities of the digital frontier.
             <br />
-            Leading a technical community of 2,500+ developers named{" "}
+            Lead a technical community of 2,500+ developers named{" "}
             <a href="https://codechampcommunity.vercel.app/">CodeChamp</a>.
             <br />
             <br />

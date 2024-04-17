@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 
@@ -31,6 +31,15 @@ const Header = () => {
             </a>
           </li>
         </ul>
+
+        <a
+          className="rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-white shadow  resume-btn"
+          href="Ashish_Resume.pdf"
+          target="_blank"
+          download
+        >
+          My Resume
+        </a>
 
         <div className="menu-icon">
           <a href="#" onClick={() => setmenuOpened((prev) => !prev)}>

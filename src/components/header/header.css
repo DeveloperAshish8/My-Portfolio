@@ -53,6 +53,25 @@
   display: none;
 }
 
+.resume-btn {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: #496eff;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  transition: transform 200ms, background 200ms;
+  :hover {
+    transform: translateY(-2px);
+  }
+}
+
 @media (max-width: 600px) {
   .mobile-menu-link {
     position: fixed;
