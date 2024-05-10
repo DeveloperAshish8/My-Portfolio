@@ -32,6 +32,15 @@
   width: 100%;
 }
 
+.load-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #496eff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
   .projects {
     padding: 0 1rem;

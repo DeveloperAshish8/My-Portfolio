@@ -12,6 +12,17 @@
   },
   {
     "id": 2,
+    "name": "Rezume",
+    "link": "https://create-rezume.vercel.app",
+    "source": "https://github.com/DeveloperAshish8/rezume",
+    "image": "ProjectImages/Rezume.png",
+    "text": "Rezume is an online platform built to help individuals create professional resumes by simply filling a form within minutes",
+    "skills1": "React",
+    "skills2": "Tailwind",
+    "skills3": "Context"
+  },
+  {
+    "id": 3,
     "name": "Coinix",
     "link": "https://coinix.vercel.app",
     "source": "https://github.com/DeveloperAshish8/Coinix",
@@ -22,7 +33,7 @@
     "skills3": "CSS"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "CodeChamp Website",
     "link": "https://codechampcommunity.vercel.app",
     "source": "https://github.com/DeveloperAshish8/CodeChamp-s-Website ",

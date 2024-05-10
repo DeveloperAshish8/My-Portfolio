@@ -5,14 +5,20 @@ import Aos from "aos";
 import { FaGithub } from "react-icons/fa";
 import { RiShareBoxFill } from "react-icons/ri";
 import "aos/dist/aos.css";
+import { useState } from "react";
 
 const ProjectCard = () => {
+  const [count, setCount] = useState(3);
+  const load = () => {
+    setCount(4);
+  };
+  const slice = ProjectList.slice(0, count);
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
     <div className="project-card">
-      {ProjectList.map((project) => {
+      {slice.map((project) => {
         return (
           <div className="pro" data-aos="fade-zoom-out">
             <div className="image-card">
@@ -42,6 +48,11 @@ const ProjectCard = () => {
           </div>
         );
       })}
+      {count < 4 && (
+        <div className="load-btn" onClick={() => load()}>
+          load more ...
+        </div>
+      )}
     </div>
   );
 };
