@@ -51,9 +51,9 @@ const About = () => {
             With an innate passion for both design and code, I transform
             imagination into captivating reality, forging seamless user
             interfaces and immersive experiences that leave visitors spellbound
-            <br />I am a self-taught developer with a passion for web
-            development, problem solving and have solved <b>400+</b> problems
-            (LeetCode).
+            <br />I am a developer with a dedicated space in my heart for web
+            development and also have passion for problem solving - solved{" "}
+            <b>450+</b> problems (LeetCode).
             <br />
             <b>
               Get my{" "}

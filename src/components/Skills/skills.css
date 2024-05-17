@@ -1,21 +1,21 @@
 .skills {
-  background-color: #496eff;
+  background-color: white;
   padding-bottom: 2rem;
 }
 
 .heading {
   font-size: 2rem;
   padding-top: 30px;
-  color: white;
+  color: #496eff;
   font-weight: 800;
   text-align: center;
 }
 .heading span {
-  color: yellow;
+  color: black;
 }
 
 .container {
-  background: rgba(0, 0, 22, 0.4);
+  /* background: rgba(0, 0, 22, 0.4); */
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
@@ -36,8 +36,9 @@
   }
 
   .container {
-    width: 80vw;
+    width: 95vw;
     height: auto;
-    padding: 1rem;
+    padding: 0rem;
+    background: inherit;
   }
 }

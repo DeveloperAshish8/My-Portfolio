@@ -1,0 +1,31 @@
+[
+  {
+    "name": "MongoDB",
+    "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+  },
+  {
+    "name": "Firebase",
+    "icon": "https://img.icons8.com/color/firebase.png"
+  },
+  {
+    "name": "MY SQL",
+    "icon": "https://img.icons8.com/color/mysql.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/glyph-neue/48/github.png"
+  },
+  {
+    "name": "Vercel",
+    "icon": "/vercel.svg"
+  },
+  {
+    "name": "VS Code",
+    "icon": "https://img.icons8.com/48/2c45ff/visual-studio.png"
+  },
+
+  {
+    "name": "Python",
+    "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+  }
+]
