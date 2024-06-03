@@ -5,7 +5,7 @@
   transform: none;
   opacity: 1;
   transition: all 300ms ease;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   background-color: rgb(249 249 249 / 80%);
   backdrop-filter: blur(20px);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,

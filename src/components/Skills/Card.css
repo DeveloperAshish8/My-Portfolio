@@ -14,7 +14,7 @@
   border: 1px solid #496eff;
 }
 .card:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  /* box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important; */
   background-color: #ffffff !important;
   transition: all 0.3s linear;
   transform: scale(1.05);

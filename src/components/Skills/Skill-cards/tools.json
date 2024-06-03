@@ -22,10 +22,5 @@
   {
     "name": "VS Code",
     "icon": "https://img.icons8.com/48/2c45ff/visual-studio.png"
-  },
-
-  {
-    "name": "Python",
-    "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
   }
 ]
