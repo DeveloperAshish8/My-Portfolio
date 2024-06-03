@@ -78,7 +78,7 @@
 .right-image {
   width: 60%;
   height: 60%;
-  object-fit: contain;
+  border-radius: 100%;
   display: block;
   z-index: 1;
 }

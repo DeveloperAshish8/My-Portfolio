@@ -1,5 +1,4 @@
 import "./introduction.css";
-import MyImage from "../../Image/MyImage.png";
 
 const Intro = () => {
   return (
@@ -56,7 +55,7 @@ const Intro = () => {
         <div className="main-right">
           <img
             draggable="false"
-            src={MyImage}
+            src="/heroImage.png"
             alt="Image"
             className="right-image"
           />
