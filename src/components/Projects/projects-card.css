@@ -58,21 +58,16 @@
 }
 
 .tech-stacks {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
   margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
-.tech-stacks p {
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: #000 !important;
-  font-family: Mulish, sans-serif !important;
-  font-weight: 600 !important;
-  padding: 0.8rem 0.5rem;
-  border-radius: 4px;
-  font-size: 14px;
+.tech-stacks img {
+  max-width: 50px;
+  max-height: 40px;
 }
 
 .links {

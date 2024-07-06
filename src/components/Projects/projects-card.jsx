@@ -30,9 +30,11 @@ const ProjectCard = () => {
               <h3>{project.name}</h3>
               <p>{project.text}</p>
               <div className="tech-stacks">
-                <p>{project.skills1}</p>
-                <p>{project.skills2}</p>
-                <p>{project.skills3}</p>
+                <img src={project?.skills1} alt="skill" />
+                <img src={project?.skills2} alt="skill" />
+                <img src={project?.skills3} alt="skill" />
+                {/* <p>{project.skills2}</p>
+                <p>{project.skills3}</p> */}
               </div>
               <div className="links">
                 <a target="_blank" href={project.source}>
