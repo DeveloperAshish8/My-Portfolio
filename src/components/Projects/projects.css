@@ -41,6 +41,37 @@
   cursor: pointer;
 }
 
+.toggle-btn {
+  margin: 10px auto;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 8px;
+  border: 2px solid rgb(225, 225, 225);
+  width: 200px;
+  padding: 2px;
+  border-radius: 24px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggle-active {
+  background-color: #496eff;
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.toggle-inactive {
+  color: #496eff;
+  padding: 5px 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
   .projects {
     padding: 0 1rem;

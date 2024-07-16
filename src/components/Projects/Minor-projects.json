@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "MineScape Game",
+    "link": "https://minescape.vercel.app",
+    "source": "https://github.com/DeveloperAshish8/minescape",
+    "image": "ProjectImages/MineScape.png",
+    "text": "MineScape is a thrilling and engaging game where your objective is to score points by uncovering safe squares while avoiding hidden bombs.",
+    "skills1": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
+    "skills2": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+  },
+  {
+    "id": 2,
+    "name": "Katta Zero",
+    "link": "https://kattazero.vercel.app",
+    "source": "https://github.com/DeveloperAshish8/tictactoe",
+    "image": "ProjectImages/KattaZero.png",
+    "text": "A classic Tic-Tac-Toe game where two players alternate marking X's and O's on a 3x3 grid. The first player to align three marks in a row, column, or diagonal wins",
+    "skills1": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
+    "skills2": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Website",
+    "link": "https://ashish4.vercel.app",
+    "source": "https://github.com/DeveloperAshish8/My-Portfolio",
+    "image": "ProjectImages/Portfolio.png",
+    "text": "My Portfolio Website which includes my professional information such as projects, skills and experience",
+    "skills1": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
+    "skills2": "https://img.icons8.com/color/48/000000/css3.png"
+  }
+]
