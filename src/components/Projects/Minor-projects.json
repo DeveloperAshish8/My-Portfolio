@@ -21,11 +21,22 @@
   },
   {
     "id": 3,
+    "name": "Food Cart",
+    "link": "https://craving.vercel.app",
+    "source": "https://github.com/DeveloperAshish8/Foodo",
+    "image": "ProjectImages/foodie.png",
+    "text": "My Portfolio Website which includes my professional information such as projects, skills and experience",
+    "skills1": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
+    "skills2": "https://img.icons8.com/color/48/000000/redux.png",
+    "skills3": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+  },
+  {
+    "id": 4,
     "name": "Portfolio Website",
     "link": "https://ashish4.vercel.app",
     "source": "https://github.com/DeveloperAshish8/My-Portfolio",
     "image": "ProjectImages/Portfolio.png",
-    "text": "My Portfolio Website which includes my professional information such as projects, skills and experience",
+    "text": "A food shopping cart that allows users to add, remove, and manage food items. The app features a user-friendly interface and integrates a simple checkout process.",
     "skills1": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
     "skills2": "https://img.icons8.com/color/48/000000/css3.png"
   }
