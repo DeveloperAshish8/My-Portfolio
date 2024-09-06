@@ -1,8 +1,14 @@
 [
   {
+    "company": "BlueStock",
+    "title": "SDE Intern (Frontend)",
+    "period": "July 2024 - Aug 2024",
+    "details": "Developed the frontend for a fully responsive web application using HTML, Bootstrap 5 and JavaScript. Day-to-day tasks includes converting Figma designs into UI components, participating in daily sync-up meets"
+  },
+  {
     "company": "GSSoC'24",
     "title": "Mentor",
-    "period": "May 2024 - Present",
+    "period": "May 2024 - June 2024",
     "details": "Selected as a mentor for GSSoC'24, providing guidance and support to participants throughout the program. Actively engaged in fostering a collaborative and enriching learning environment."
   },
 
@@ -11,12 +17,5 @@
     "title": "Project Admin",
     "period": "Oct 2022",
     "details": "Helped folks to begin with Open-source. Created an environment of working in a team among the young hustlers. Successfully merged 80+ PRs after providing proper guidance to the Open Source Enthusiast."
-  },
-
-  {
-    "company": "BePractical",
-    "title": "Technical Writer",
-    "period": "April 2022 - May 2022",
-    "details": "Wrote articles related to web designing and how to become a pro in frontend development."
   }
 ]

@@ -27,5 +27,9 @@
   {
     "name": "Tailwind",
     "icon": "https://img.icons8.com/color/48/000000/tailwindcss.png"
+  },
+  {
+    "name": "Redux ToolKit",
+    "icon": "https://img.icons8.com/color/48/000000/redux.png"
   }
 ]
