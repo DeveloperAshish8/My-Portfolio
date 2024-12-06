@@ -72,7 +72,7 @@ const Header = () => {
         </a>
 
         <div className="menu-icon">
-          <a href="#" onClick={() => setmenuOpened((prev) => !prev)}>
+          <a onClick={() => setmenuOpened((prev) => !prev)}>
             <BiMenuAltRight size={30} />
           </a>
         </div>
