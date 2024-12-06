@@ -4,6 +4,16 @@ import { BiMenuAltRight } from "react-icons/bi";
 
 const Header = () => {
   const [menuOpened, setmenuOpened] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Define your breakpoint for mobile
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <div className="heading-wrapper">
@@ -13,19 +23,39 @@ const Header = () => {
         </div>
 
         <ul className={menuOpened ? "mobile-menu-link" : "menu-link"}>
-          <li>
+          <li
+            onClick={
+              isMobile ? () => setmenuOpened((prev) => !prev) : undefined
+            }
+          >
             <a href="#about">About</a>
           </li>
-          <li>
+          <li
+            onClick={
+              isMobile ? () => setmenuOpened((prev) => !prev) : undefined
+            }
+          >
             <a href="#skills">Skills</a>
           </li>
-          <li>
+          <li
+            onClick={
+              isMobile ? () => setmenuOpened((prev) => !prev) : undefined
+            }
+          >
             <a href="#experience">Experience</a>
           </li>
-          <li>
+          <li
+            onClick={
+              isMobile ? () => setmenuOpened((prev) => !prev) : undefined
+            }
+          >
             <a href="#projects">Projects</a>
           </li>
-          <li>
+          <li
+            onClick={
+              isMobile ? () => setmenuOpened((prev) => !prev) : undefined
+            }
+          >
             <a href="https://ashish4.bio.link" target="_blank">
               My Socials
             </a>

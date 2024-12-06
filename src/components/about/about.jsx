@@ -24,7 +24,7 @@ const About = () => {
         <div className="content">
           <h3 className="MyName">I'm Ashish</h3>
           <span className="tag">
-            Passionate Frontend Developer | Programming Geek
+            Passionate Frontend Engineer | Programming Geek
           </span>
 
           <div className="about-container" data-aos="fade-zoom-out">
@@ -44,16 +44,13 @@ const About = () => {
             the hunger for knowledge, and the unwavering passion for the
             limitless possibilities of the digital frontier.
             <br />
-            Lead a technical community of 2,500+ developers named{" "}
-            <a href="https://codechampcommunity.vercel.app/">CodeChamp</a>.
-            <br />
             <br />
             With an innate passion for both design and code, I transform
             imagination into captivating reality, forging seamless user
             interfaces and immersive experiences that leave visitors spellbound
             <br />I am a developer with a dedicated space in my heart for web
             development and also have passion for problem solving - solved{" "}
-            <b>450+</b> problems (LeetCode).
+            <b>500+</b> problems (LeetCode).
             <br />
             <b>
               Get my{" "}

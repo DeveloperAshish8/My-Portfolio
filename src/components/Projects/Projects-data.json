@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Rezume",
-    "link": "https://create-rezume.vercel.app",
+    "link": "https://myrezume.live",
     "source": "https://github.com/DeveloperAshish8/rezume",
     "image": "ProjectImages/Rezume.png",
     "text": "Rezume is an online platform built to help individuals create professional resumes by simply filling a form within minutes or check their existing resume strength.",
