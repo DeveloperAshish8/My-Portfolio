@@ -1,5 +1,11 @@
 [
   {
+    "company": "Flashport",
+    "title": "Frontend Engineering Intern",
+    "period": "Nov 2024 - Present",
+    "details": "Developed and maintaining responsive user interfaces using ReactJS, Redux, and Tailwind CSS, ensuring seamless collaboration. Focused on smooth integration and efficient development of cohesive web applications."
+  },
+  {
     "company": "BlueStock",
     "title": "SDE Intern (Frontend)",
     "period": "July 2024 - Aug 2024",
@@ -10,12 +16,5 @@
     "title": "Mentor",
     "period": "May 2024 - June 2024",
     "details": "Selected as a mentor for GSSoC'24, providing guidance and support to participants throughout the program. Actively engaged in fostering a collaborative and enriching learning environment."
-  },
-
-  {
-    "company": "Hacktoberfest",
-    "title": "Project Admin",
-    "period": "Oct 2022",
-    "details": "Helped folks to begin with Open-source. Created an environment of working in a team among the young hustlers. Successfully merged 80+ PRs after providing proper guidance to the Open Source Enthusiast."
   }
 ]
