@@ -12,6 +12,10 @@
     "icon": "https://img.icons8.com/color/48/000000/git.png"
   },
   {
+    "name": "Docker",
+    "icon": "https://img.icons8.com/color/48/000000/docker.png"
+  },
+  {
     "name": "NodeJS",
     "icon": "https://img.icons8.com/color/48/nodejs.png"
   },
