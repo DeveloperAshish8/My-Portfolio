@@ -24,7 +24,7 @@ const About = () => {
         <div className="content">
           <h3 className="MyName">I'm Ashish</h3>
           <span className="tag">
-            Passionate Frontend Engineer | Programming Geek
+            Passionate FullStack Engineer | Programming Geek
           </span>
 
           <div className="about-container" data-aos="fade-zoom-out">
