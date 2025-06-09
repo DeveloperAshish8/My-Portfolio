@@ -10,7 +10,7 @@ import { useState } from "react";
 const ProjectCard = ({ ProjectList }) => {
   const [count, setCount] = useState(3);
   const load = () => {
-    setCount(4);
+    setCount(6);
   };
   const slice = ProjectList.slice(0, count);
   useEffect(() => {
