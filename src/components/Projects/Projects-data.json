@@ -26,7 +26,7 @@
     "name": "URL Shortner",
     "link": "https://github.com/DeveloperAshish8/url-shortner",
     "source": "https://github.com/DeveloperAshish8/url-shortner",
-    "image": "ProjectImages/ShareFlow.png",
+    "image": "ProjectImages/URLShortner.png",
     "text": "A lightweight backend-powered URL shortener that generates compact, shareable links. It enables fast redirection and tracks usage efficiently through APIs.",
     "skills1": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
     "skills2": "https://img.icons8.com/color/48/000000/nodejs.png",
