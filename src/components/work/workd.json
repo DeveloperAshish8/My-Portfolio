@@ -1,5 +1,11 @@
 [
   {
+    "company": "Upliance AI",
+    "title": "Developer Intern",
+    "period": "July 2025 - Present",
+    "details": "Building internal tools for cross-functional teams to manage analytics and statistics. Writing JavaScript transformers to process and structure dynamic data for better comparison"
+  },
+  {
     "company": "Flashport",
     "title": "Frontend Engineering Intern",
     "period": "Nov 2024 - Dec 2024",
@@ -10,11 +16,5 @@
     "title": "Technical Lead",
     "period": "Aug 2024 - Dec 2024",
     "details": "Leading the website team to maintain and enhance the Devfest Patna website. Managing technical engagement for local developer meetups, ensuring interactive and insightful sessions"
-  },
-  {
-    "company": "GSSoC'24",
-    "title": "Mentor",
-    "period": "May 2024 - June 2024",
-    "details": "Selected as a mentor for GSSoC'24, providing guidance and support to participants throughout the program. Actively engaged in fostering a collaborative and enriching learning environment."
   }
 ]
