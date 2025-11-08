@@ -1,7 +1,7 @@
 import "./work.css";
 import WorkArea from "./work-area";
 
-export default function () {
+export default function Work() {
   return (
     <section className="work-wrapper" id="experience">
       <div className="work-container">
