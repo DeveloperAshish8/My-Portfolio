@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGmail, SiLeetcode } from "react-icons/si";
 import "./introduction.css";
 
 const Intro = () => {
@@ -17,39 +19,38 @@ const Intro = () => {
                 <div className="title-item">Programming</div>
               </div>
             </div>
-            <span>
+          </div>
+          <div className="wrapper">
+            <span className="icons">
               <a
                 href="https://www.linkedin.com/in/ashish-kumar-4566211a3"
                 target="_blank"
+                style={{ color: "#000000" }}
               >
-                <i className="fa-brands fa-linkedin"></i>
+                <FaLinkedin />
               </a>
               <a
                 href="https://github.com/DeveloperAshish8"
                 target="_blank"
                 style={{ color: "#000000" }}
               >
-                <i className="fa-brands fa-github"></i>
+                <FaGithub />
+              </a>
+              <a
+                href="https://leetcode.com/u/ash__ish/"
+                target="_blank"
+                style={{ color: "#000000" }}
+              >
+                <SiLeetcode />
+              </a>
+              <a
+                href="mailto:augashish4@gmail.com"
+                target="_blank"
+                style={{ color: "#000000" }}
+              >
+                <SiGmail />
               </a>
             </span>
-            <p className="main-description">
-              I design and code beautified simple things and love what I do.
-            </p>
-          </div>
-          <div className="wrapper">
-            <div className="link_wrapper">
-              <a href="https://ashish4.bio.link" target="_blank">
-                Let's Connect <i className="fa-brands fa-linkedin"></i>
-              </a>
-              <div className="icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 268.832 268.832"
-                >
-                  <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z" />
-                </svg>
-              </div>
-            </div>
           </div>
         </div>
         <div className="main-right">

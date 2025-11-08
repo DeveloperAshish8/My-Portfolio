@@ -50,11 +50,14 @@ const About = () => {
             interfaces and immersive experiences that leave visitors spellbound
             <br />I am a developer with a dedicated space in my heart for web
             development and also have passion for problem solving - solved{" "}
-            <b>500+</b> problems (LeetCode).
+            <b>700+</b> problems (LeetCode).
             <br />
             <b>
               Get my{" "}
-              <a href="Ashish_Resume.pdf" target="_blank" download>
+              <a
+                href="https://drive.google.com/file/d/1ufp_YaRoBYQnzrWWCI2GcMjNtH0yUjn3/view?usp=sharing"
+                target="_blank"
+              >
                 Resume
               </a>{" "}
               here.
