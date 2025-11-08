@@ -25,6 +25,7 @@ const Intro = () => {
               <a
                 href="https://www.linkedin.com/in/ashish-kumar-4566211a3"
                 target="_blank"
+                rel="noreferrer"
                 style={{ color: "#000000" }}
               >
                 <FaLinkedin />
@@ -32,6 +33,7 @@ const Intro = () => {
               <a
                 href="https://github.com/DeveloperAshish8"
                 target="_blank"
+                rel="noreferrer"
                 style={{ color: "#000000" }}
               >
                 <FaGithub />
@@ -39,6 +41,7 @@ const Intro = () => {
               <a
                 href="https://leetcode.com/u/ash__ish/"
                 target="_blank"
+                rel="noreferrer"
                 style={{ color: "#000000" }}
               >
                 <SiLeetcode />
@@ -46,6 +49,7 @@ const Intro = () => {
               <a
                 href="mailto:augashish4@gmail.com"
                 target="_blank"
+                rel="noreferrer"
                 style={{ color: "#000000" }}
               >
                 <SiGmail />

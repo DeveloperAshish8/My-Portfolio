@@ -57,6 +57,7 @@ const About = () => {
               <a
                 href="https://drive.google.com/file/d/1ufp_YaRoBYQnzrWWCI2GcMjNtH0yUjn3/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 Resume
               </a>{" "}
