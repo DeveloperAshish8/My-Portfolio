@@ -10,29 +10,36 @@ import Work from "./components/work/Work";
 import Header from "./components/header/header";
 
 function App() {
-  const [loading, setloading] = useState(false);
+  const [loading, setloading] = useState(true);
+
   useEffect(() => {
-    setloading(true);
-    setTimeout(() => {
+    const handlePageLoad = () => setloading(false);
+
+    // If the page is already loaded (fast internet)
+    if (document.readyState === "complete") {
       setloading(false);
-    }, 3000);
+    } else {
+      // Wait for full load (images, CSS, etc.)
+      window.addEventListener("load", handlePageLoad);
+      return () => window.removeEventListener("load", handlePageLoad);
+    }
   }, []);
   return (
     <div className="app">
       {loading ? (
         <div className="preloader">
-        {/*Preloader */}
-        <ClimbingBoxLoader
-          color={"#496eff"}
-          loading={loading}
-          size={20}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
+          {/*Preloader */}
+          <ClimbingBoxLoader
+            color={"#496eff"}
+            loading={loading}
+            size={20}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
         </div>
       ) : (
         <>
-        {/* Components */}
+          {/* Components */}
           <Header />
           <Intro />
           <About />

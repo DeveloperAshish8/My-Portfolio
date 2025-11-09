@@ -64,9 +64,9 @@ const Header = () => {
 
         <a
           className="rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-white shadow  resume-btn"
-          href="Ashish_Resume.pdf"
+          href="https://drive.google.com/file/d/1ufp_YaRoBYQnzrWWCI2GcMjNtH0yUjn3/view?usp=sharing"
           target="_blank"
-          download
+          rel="noreferrer"
         >
           My Resume
         </a>
