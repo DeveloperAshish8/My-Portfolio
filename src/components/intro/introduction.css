@@ -160,6 +160,7 @@
 @media screen and (max-width: 600px) {
   .main {
     flex-direction: column;
+    overflow: hidden;
     height: 90dvh;
     padding: 0;
   }
