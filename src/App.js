@@ -8,6 +8,7 @@ import Projects from "./components/Projects/projects";
 import Footer from "./components/footer/footer";
 import Work from "./components/work/Work";
 import Header from "./components/header/header";
+import { FaRegCalendar } from "react-icons/fa";
 
 function App() {
   const [loading, setloading] = useState(true);
@@ -23,6 +24,19 @@ function App() {
       window.addEventListener("load", handlePageLoad);
       return () => window.removeEventListener("load", handlePageLoad);
     }
+  }, []);
+
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  useEffect(() => {
+    const expandTimeout = setTimeout(() => setIsExpanded(true), 1000); // expand after 5 sec
+
+    const collapseTimeout = setTimeout(() => setIsExpanded(false), 5000); // collapse after 4 more sec
+
+    return () => {
+      clearTimeout(expandTimeout);
+      clearTimeout(collapseTimeout);
+    };
   }, []);
   return (
     <div className="app">
@@ -47,6 +61,18 @@ function App() {
           <Projects />
           <Work />
           <Footer />
+          {/* ⭐ Calendly Animated Floating Button */}
+          <button
+            onClick={() =>
+              window.Calendly.initPopupWidget({
+                url: "https://calendly.com/augashish4/catchup-with-ashish-clone",
+              })
+            }
+            className={`calendly-animated-btn ${isExpanded ? "expanded" : ""}`}
+          >
+            <FaRegCalendar size={20} />
+            {isExpanded && <span className="btn-text">Schedule Call</span>}
+          </button>
         </>
       )}
     </div>

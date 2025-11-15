@@ -7,6 +7,49 @@
   text-align: center;
 }
 
-*, *>*{
+*,
+* > * {
   scroll-behavior: smooth;
 }
+
+.calendly-animated-btn {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  background: #4f46e5;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  transition: all 1s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Collapsed (only icon) */
+.calendly-animated-btn {
+  width: 48px;
+  justify-content: center;
+}
+
+/* Expanded (icon + text) */
+.calendly-animated-btn.expanded {
+  width: 180px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Text styling */
+.btn-text {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
