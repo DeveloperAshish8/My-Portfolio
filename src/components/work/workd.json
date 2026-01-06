@@ -1,5 +1,11 @@
 [
   {
+    "company": "Flobiz",
+    "title": "Frontend Growth Engineer Intern",
+    "period": "Dec 2024 - Present",
+    "details": "Updated Soon ...."
+  },
+  {
     "company": "Upliance AI",
     "title": "Developer Intern",
     "period": "July 2025 - Oct 2025",
@@ -10,11 +16,5 @@
     "title": "Frontend Engineering Intern",
     "period": "Nov 2024 - Dec 2024",
     "details": "Developed and maintaining responsive user interfaces using ReactJS, Redux, and Tailwind CSS, ensuring seamless collaboration. Focused on smooth integration and efficient development of cohesive web applications."
-  },
-  {
-    "company": "GDG Patna",
-    "title": "Technical Lead",
-    "period": "Aug 2024 - Dec 2024",
-    "details": "Leading the website team to maintain and enhance the Devfest Patna website. Managing technical engagement for local developer meetups, ensuring interactive and insightful sessions"
   }
 ]
