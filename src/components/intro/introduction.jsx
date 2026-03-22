@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiGmail, SiLeetcode } from "react-icons/si";
+import { SiGmail, SiLeetcode, SiMedium } from "react-icons/si";
 import "./introduction.css";
 
 const Intro = () => {
@@ -39,12 +39,12 @@ const Intro = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://leetcode.com/u/ash__ish/"
+                href="https://medium.com/@ashish-4"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "#000000" }}
               >
-                <SiLeetcode />
+                <SiMedium />
               </a>
               <a
                 href="mailto:augashish4@gmail.com"

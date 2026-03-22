@@ -50,7 +50,15 @@ const About = () => {
             interfaces and immersive experiences that leave visitors spellbound
             <br />I am a developer with a dedicated space in my heart for web
             development and also have passion for problem solving - solved{" "}
-            <b>700+</b> problems (LeetCode).
+            <b>700+</b> problems (
+            <a
+              href="https://leetcode.com/u/ash__ish/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Leetcode
+            </a>
+            ).
             <br />
             <b>
               Get my{" "}
