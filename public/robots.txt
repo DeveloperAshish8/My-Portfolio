@@ -1,5 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://DeveloperAshish8.github.io/My-Portfolio/sitemap.xml
+Sitemap: https://www.ashish4.me/sitemap.xml
