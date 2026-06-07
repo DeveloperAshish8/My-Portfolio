@@ -79,12 +79,17 @@
     line-height: 25px;
   }
 
-  .post h1{
+  .post h1 {
     font-size: 17px;
   }
 
-  .progressbar{
-    padding-top: 1rem;
+  .progressbar {
+    padding-top: 1.2rem;
     margin-top: 1rem;
+  }
+
+  .role h1 {
+    font-size: 17px;
+    line-height: 150%;
   }
 }
