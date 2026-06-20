@@ -29,7 +29,7 @@ const About = () => {
 
           <div className="about-container" data-aos="fade-zoom-out">
             <div className="detail-container">
-              <img src={ExpImage} alt="Experience Image" />
+              <img src={ExpImage} alt="Ashish Kumar Experience Image" />
               <h3>College</h3>
               <p>BCE Patna</p>
             </div>

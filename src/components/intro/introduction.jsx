@@ -8,15 +8,16 @@ const Intro = () => {
       <div className="main">
         <div className="main-left">
           <div className="Name-box">
-            <h2 className="name-hello">Hello, I am</h2>
+            <p className="name-hello">Hello, I am</p>
             <h1 className="name">Ashish Kumar</h1>
+            <h2 className="sr-only">Frontend Engineer</h2>
             <div className="title">
               <div className="title-wrapper">
-                <div className="title-item">Web Development</div>
-                <div className="title-item">Software Development</div>
-                <div className="title-item">Frontend Engineering</div>
-                <div className="title-item">Problem Solving</div>
-                <div className="title-item">Programming</div>
+                <h3 className="title-item">Web Development</h3>
+                <h3 className="title-item">Software Development</h3>
+                <h3 className="title-item">Frontend Engineering</h3>
+                <h3 className="title-item">Problem Solving</h3>
+                <h3 className="title-item">Programming</h3>
               </div>
             </div>
           </div>
@@ -61,7 +62,7 @@ const Intro = () => {
           <img
             draggable="false"
             src="/heroImage.png"
-            alt="Image"
+            alt="Ashish Kumar Image"
             className="right-image"
           />
         </div>
