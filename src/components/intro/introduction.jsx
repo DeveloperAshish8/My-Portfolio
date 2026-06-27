@@ -61,7 +61,7 @@ const Intro = () => {
         <div className="main-right">
           <img
             draggable="false"
-            src="/heroImage.png"
+            src="/heroImage.webp"
             alt="Ashish Kumar Image"
             className="right-image"
           />
