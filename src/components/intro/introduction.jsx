@@ -62,7 +62,7 @@ const Intro = () => {
           <img
             draggable="false"
             src="/heroImage.webp"
-            alt="Ashish Kumar Image"
+            alt="Developer Image"
             className="right-image"
           />
         </div>

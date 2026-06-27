@@ -19,7 +19,7 @@ const About = () => {
 
       <div className="row">
         <div className="image" data-aos="fade-zoom-out">
-          <img src={StageImage} alt="Image" />
+          <img src={StageImage} alt="Ashish KumarImage" />
         </div>
         <div className="content">
           <h3 className="MyName">I'm Ashish</h3>
